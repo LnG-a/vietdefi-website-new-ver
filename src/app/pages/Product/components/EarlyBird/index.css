@@ -1,0 +1,36 @@
+.product-img img {
+  object-fit: cover;
+  position: absolute;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #fefcf8;
+}
+
+.pic-early-bird-1 img {
+  width: 40%;
+  height: 195px;
+  top: 0px;
+  left: 10%;
+}
+
+.pic-early-bird-2 img {
+  width: 30%;
+  height: 160px;
+  top: 35px;
+  left: 50%;
+}
+
+.pic-early-bird-3 img {
+  width: 30%;
+  height: 150px;
+  top: 195px;
+  left: 20%;
+}
+
+.pic-early-bird-4 img {
+  width: 35%;
+  height: 250px;
+  top: 195px;
+  left: 50%;
+}

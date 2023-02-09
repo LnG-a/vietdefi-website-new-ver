@@ -1,0 +1,82 @@
+.banner-container {
+  width: 100vw;
+}
+
+.banner-background {
+  width: 100vw;
+  height: inherit;
+  background: url('./assets/background_header.png') no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+.banner-background-override {
+  width: 100%;
+  height: 70vh;
+  background: url('./assets/fade.png') no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: left;
+  padding-top: 50px;
+  padding-left: 10%;
+}
+
+.banner-content {
+  text-align: left;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.banner-content h1 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.banner-content p {
+  text-align: justify;
+  font-size: 20px;
+  line-height: 2rem;
+  width: 43%;
+  min-width: 500px;
+}
+@media screen and (max-width: 768px) {
+  .banner-content h1 {
+    font-weight: bold;
+    font-size: 32px;
+  }
+  .banner-content p {
+    font-size: 18px;
+    min-width: 400px;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .banner-content h1 {
+    font-weight: bold;
+    font-size: 28px;
+  }
+  .banner-content p {
+    font-size: 16px;
+    min-width: 300px;
+    line-height: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .banner-content h1 {
+    font-weight: bold;
+    font-size: 28px;
+  }
+  .banner-content p {
+    font-size: 16px;
+    min-width: 250px;
+    line-height: 1.5rem;
+  }
+}

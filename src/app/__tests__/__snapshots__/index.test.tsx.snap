@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render and match the snapshot 1`] = `
+<BrowserRouter>
+  <Helmet
+    defaultTitle="VIETDEFI COMPANY WEBSITE"
+    defer={true}
+    encodeSpecialCharacters={true}
+    htmlAttributes={
+      Object {
+        "lang": undefined,
+      }
+    }
+    prioritizeSeoTags={false}
+    titleTemplate="VIETDEFI"
+  >
+    <meta
+      content="VIETDEFI COMPANY WEBSITE"
+      name="description"
+    />
+  </Helmet>
+  <Switch>
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/"
+    />
+    <Route
+      component={[Function]}
+      path="/about"
+    />
+    <Route
+      component={[Function]}
+      path="/recruit"
+    />
+    <Route
+      component={[Function]}
+      path="/product"
+    />
+    <Route
+      component={[Function]}
+    />
+  </Switch>
+  <Memo(l) />
+</BrowserRouter>
+`;

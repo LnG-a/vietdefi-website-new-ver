@@ -1,0 +1,133 @@
+.footer-container {
+  background-color: #242424;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.foot_image-company {
+  height: 75px;
+  width: 75px;
+  background-image: url('app/assets/logoVietdefi.svg');
+  margin-bottom: 20px;
+}
+
+.footer-input {
+  min-height: 50px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.footer-link-wrapper-4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link-wrapper-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.footer-link-items {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  text-align: left;
+  width: 48%;
+}
+
+.office {
+  text-align: justify;
+}
+
+.footer-link-items h3 {
+  margin-bottom: 2rem;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-link-items p,
+.footer-link-items a {
+  margin-bottom: 1rem;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-link-items a:hover {
+  color: #e9e9e9;
+  transition: 0.3s ease-out;
+}
+
+.input-areas {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-input::placeholder {
+  color: #999999;
+}
+
+.foot-signup_image {
+  margin-top: 20px;
+  width: 230px;
+  overflow: hidden;
+  align-self: center;
+}
+
+.foot-signup_image img {
+  width: 230px;
+  height: auto;
+}
+
+.company {
+  padding-left: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-link-wrapper-4 {
+    flex-direction: column;
+  }
+  .footer-link-wrapper-2 {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .company {
+    padding-left: 0;
+  }
+
+  .foot_image-company {
+    margin-bottom: 35px;
+  }
+  .footer-container {
+    padding: 3rem 3rem 0 3rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer-link-wrapper-2 {
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  .footer-link-items {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}

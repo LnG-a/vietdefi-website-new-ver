@@ -1,0 +1,29 @@
+a.active {
+  color: #00baff;
+}
+
+div.active {
+  background-color: #00baff;
+  display: block;
+}
+
+#add-icon.active {
+  background-image: url(../assets/add-active.png);
+  background-color: transparent;
+}
+
+div.hidden {
+  display: flex;
+}
+
+@media (max-width: 960px){
+  div.active {
+    display: none;
+  }
+  div.hidden {
+    display: none;
+  }
+}
+
+
+

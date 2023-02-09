@@ -1,0 +1,91 @@
+button.large {
+  padding: 4px 112px;
+  min-width: 240px;
+}
+
+button.large:hover {
+  background-color: #313131;
+  cursor: pointer;
+}
+
+button.default {
+  border: 2px solid white;
+  border-radius: 8px;
+  background-color: transparent;
+  color: white;
+}
+
+button.default:hover {
+  border: none;
+  background-color: white;
+  color: black;
+}
+
+button.alter {
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: transparent;
+  color: black;
+}
+
+button.alter:hover {
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+button.position_button {
+  width: 153px;
+  height: 47px;
+  border-radius: 8px;
+  align-items: center;
+  border: 1px solid #ff9501;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  transition-duration: 0.5s;
+}
+
+button.position_button:hover {
+  border-color: #000000;
+  background-color: #fff;
+  color: #000000;
+  text-decoration: none;
+}
+
+button.apply_button {
+  width: 140px;
+  height: 47px;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  border: 1px solid #ff9501;
+  transition-duration: 0.5s;
+}
+
+button.apply_button:hover {
+  border-color: #000000;
+  background-color: #fff;
+  color: #000000;
+}
+
+@media only screen and (max-width: 500px) {
+  button.position_button {
+    width: 36px;
+    height: 36px;
+    background: url('./assets/arrow_right.png') no-repeat;
+    background-size: contain;
+    font-size: 0;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  button.large {
+    font-size: 12px;
+    padding: 9px 32px;
+    gap: 0;
+    min-width: 70px;
+    height: auto;
+  }
+}

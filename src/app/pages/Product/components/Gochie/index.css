@@ -1,0 +1,28 @@
+.product-img img {
+  object-fit: cover;
+  position: absolute;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+}
+
+.pic-gochie-1 img {
+  width: 50%;
+  height: 190px;
+  top: 20px;
+  right: 10%;
+}
+
+.pic-gochie-2 img {
+  width: 45%;
+  height: 170px;
+  top: 120px;
+  right: 45%;
+}
+.pic-gochie-3 img {
+  width: 50%;
+  height: 200px;
+  top: 220px;
+  right: 15%;
+}

@@ -1,0 +1,27 @@
+.introduce_header {
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.introduce_header h1 {
+  font-weight: 700;
+  line-height: 60px;
+  font-size: 40px;
+  color: #00baff;
+}
+
+.introduce_item {
+  width: 100%;
+}
+
+.introduce_item h2 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.introduce_item p {
+  color: #808080;
+  text-align: justify;
+}

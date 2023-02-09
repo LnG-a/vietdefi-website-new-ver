@@ -1,0 +1,54 @@
+.culture-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.culture-card {
+  width: 27%;
+  min-width: 310px;
+  height: 500px;
+  background: #ffffff;
+  border-radius: 16px;
+  border-style: solid;
+  border-width: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  transition: all 0.3s ease-in-out;
+}
+
+.culture-card:hover {
+  box-shadow: 7.5px 7.5px rgb(0, 0, 0);
+  transition: all 0.3s ease-in-out;
+}
+
+.culture-card .title {
+  margin-top: 10px;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 0 10% 10px 10%;
+  text-align: center;
+}
+
+.culture-card .subtitle {
+  border-top: solid 3px black;
+  padding: 20px 10% 30px 10%;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+@media screen and (max-width: 992px) {
+  .culture-content-wrapper {
+    flex-direction: column;
+  }
+  .culture-card {
+    width: 90%;
+    height: auto;
+  }
+  .culture-card {
+    margin-bottom: 40px;
+  }
+}

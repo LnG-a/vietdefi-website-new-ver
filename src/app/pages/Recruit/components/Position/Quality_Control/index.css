@@ -1,0 +1,22 @@
+.artist_content h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 40px;
+}
+
+.artist_content h2 {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.artist_content ul {
+  margin-bottom: 24px;
+}
+
+.artist_content li {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 8px;
+}

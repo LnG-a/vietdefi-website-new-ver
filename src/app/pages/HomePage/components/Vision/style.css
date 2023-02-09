@@ -1,0 +1,8 @@
+.vision-button {
+  width: 250px;
+}
+@media screen and (max-width: 768px) {
+  .vision-button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .media_container {
+      width: 1235px !important;
+      padding: 0 50px 0 50px !important;
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+    .media_container {
+        width: 1239px !important;
+        padding: 0 32px 0 32px !important;
+        flex-direction: column !important;
+    }
+    .box-left{
+        max-width:100% !important;
+    }
+}
